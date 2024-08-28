@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO SOBRE MI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #ef0ecd;
+            color: #0e0e0e;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        header .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #111010;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .project {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form label {
+            display: block;
+            margin: 0.5rem 0 0.2rem;
+        }
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button {
+            background: #ef0ecd;
+            color: #070707;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer {
+            background: #ef0ecd;
+            color: #171717;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mi Portafolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <h2>¡BIENVENIDOS!</h2>
+            <p>Soy Guiselle Aracely Faundez Sandoval, ingeniera en administracion de empresas te invito a explorar mis proyectos y conocer mas de mi.</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+           <h2>Objetivo profesional</h2> 
+            <p>Ingeniera en Administración de Empresas con amplia experiencia en gestión, liderazgo y  desarrollo de estrategias empresariales.  Innovadora, analítica y orientada a resultados,  con habilidad para resolver problemas y  trabajar en equipo, en búsqueda de un empleo  donde pueda desarrollar mis habilidades y  conocimientos, para poder aprender cada día  algo nuevo. </p>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="container">
+            <h2>Mis Proyectos</h2>
+            <div class="project">
+                <h3>Cursos</h3>
+                <p>En este año comence a realizar cursos para poder ampliar mi curriculum y asi tener  furtutos trabajos.</p>
+            </div>
+            <div class="project">
+                <h3>PYME</h3>
+                <p>Tengo una pyme de audifonos exportados desde china espero este año poder tener resultados esperados y asi obtener un mayor capital y poder seguir creciendo..</p>
+            </div>
+            <!-- Agrega más proyectos según sea necesario -->
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="mailto:tuemail@ejemplo.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; MI YO 2024.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
